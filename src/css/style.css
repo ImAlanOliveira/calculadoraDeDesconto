@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;500;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background: linear-gradient(to left ,#ff00cc, #333399);
+    font-family: 'Barlow', sans-serif;
+    color: #ffffff;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    margin:30vh auto;
+    width:300px;
+}
+
+.container form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    row-gap:15px;
+}
+
+.container h2{
+    text-align:center;
+}
+
+.container form input{
+    width:100px;
+    height:30px;
+    text-align: center;
+}
+
+.container select{
+    text-align:center;
+    height: 30px;
+    background-color:#f08edd;
+    border:none;
+    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+}
+
+.container form button{
+    width:110px;
+    height:40px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    transition: ease-in-out 0.2s;
+    background-color:#f08edd;
+    font-size:14px;
+    text-transform: uppercase;
+    font-weight:bold;
+    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+}
+.container form button:hover{
+    background-color:#e26bca;
+    transform:scale(1.03);
+}
+
+.container #resultadoDoDesconto{
+    text-align:center;
+}

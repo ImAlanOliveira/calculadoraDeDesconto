@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de descontos</title>
+    <link href = "src/css/style.css" rel = "stylesheet">
+</head>
+<body>
+    <main class="container">
+        <h2>Calcule o desconto</h2>
+
+        <form action="" class="form" id = "tipsForm">
+            <label for = "number">Insira o valor que você deseja</label>
+            <input type = number min = 0 name = "number" id = "valorParaDesconto" step = 0.01>
+
+
+            <h4>Qual o tipo de desconto?</h4>
+            <div class="tipoDesconto">               
+                <select name="" id="escolhaDesconto">
+                    <option value="0" disabled selected> -- Escolha uma opção -- </option>
+                    <option value="1">2.5% de desconto</option>
+                    <option value="2">5% de desconto</option>
+                    <option value="3">7% de desconto</option>
+                </select>
+            </div>
+
+            
+            <button type = "submit">Calcular</button>
+            
+            <div class="descontos">
+            <p id = "resultadoDoDesconto"></p>
+            </div>
+        </form>
+    </main>
+
+
+
+
+
+
+
+
+    <script src = "src/js/index.js"></script>
+</body>
+</html>
